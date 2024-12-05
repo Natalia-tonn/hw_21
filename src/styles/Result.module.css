@@ -1,0 +1,22 @@
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 20px;
+    background: linear-gradient(135deg, #9dc7dd, #853a6a);
+    color: white;
+    border-radius: 10px;
+    list-style-type: none;
+  }
+  .resultContainer > ul{
+ 
+        list-style-type: none;
+
+  }
+ 
+  li {
+    text-align: left; 
+    padding-left: 20px;
+  
+    margin-bottom: 15px;
+  }

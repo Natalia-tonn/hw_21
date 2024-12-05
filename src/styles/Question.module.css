@@ -1,0 +1,27 @@
+.questionContainer {
+    margin: 20px 0;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .optionButton {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7d8fdd;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .optionButton:hover {
+    background-color: #325a62;
+  }
+  
+  .selected {
+    background-color: #a467a3;
+  }
